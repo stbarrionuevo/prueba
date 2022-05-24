@@ -1,0 +1,62 @@
+/* Esto es un comentario en CSS */
+
+
+
+/* SELECTOR {
+    propiedad: valor;
+}
+
+*/
+
+
+
+/*
+1- cascada
+*/
+
+
+/*
+section p {
+    /*Ingles-rgb-rgba-hsl-hexa*/
+   /* color: rgb(0, 0, 255);
+}*/
+
+
+
+/*
+2- class*/
+
+.paragraph-blue {
+    color: yellow;
+}
+
+
+/*3- ID no es la mejor si se usa más de una vez puede crear erros, solo se puede dar un ID*/
+
+#trabajos{
+    color: black;
+    background-color: cadetblue;
+}
+
+
+/* Especificidad --utilizar class es lo más recomendable */
+
+
+
+
+body {
+    background-image: url(images/la-bombonera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 44px;
+}
+
+ul { 
+    list-style: none;
+}
